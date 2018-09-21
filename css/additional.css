@@ -1,0 +1,17 @@
+.fade {
+   opacity: 1 !important;
+   transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+   }
+
+.fadeOut {
+	opacity: 0;
+   transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+}
+
+.opacity {
+	opacity: 0;
+}

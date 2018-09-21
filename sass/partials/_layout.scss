@@ -1,0 +1,203 @@
+body,html {
+  background-color: #f2f2f2;
+  margin: 0 auto;
+}
+
+
+
+.container {
+  width: 100%;
+  display: inline-block;
+
+
+}
+
+.btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: $orange;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto !important;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.col-inner {
+  background-color: $white;
+  height: 100%;
+  text-align: center;
+-webkit-box-shadow: 7px 14px 44px -11px rgba(0,0,0,0.51);
+-moz-box-shadow: 7px 14px 44px -11px rgba(0,0,0,0.51);
+box-shadow: 7px 14px 44px -11px rgba(0,0,0,0.51);
+
+}
+
+.col-md-4 {
+    margin-top: 30px;
+}
+
+.col-md-4 h2{
+  background-color: $blue-accent !important;
+  display: block;
+  color: $white !important;
+  text-align: center;
+  padding: 10px;
+}
+
+.chart-gauge
+      {
+
+        width: 70%;
+        margin: 10px auto;  
+       } 
+      .chart-filled
+      {
+        fill: steelblue;
+      }
+      .chart-empty
+      {
+        fill: #dedede;
+      }
+    
+      .needle, .needle-center
+      {
+        fill: #464A4F;
+      }
+      .svg {
+        margin: 0;
+      }
+
+
+.tile-container{
+  width: 320px;
+  margin: 20px;
+
+}
+
+.title-container{
+  margin-bottom: 20px;
+}
+
+.info-container{
+  width: 280px;
+  height: 250px;
+  padding: 15px;
+  margin-top: -40px;
+  margin-left: -20px;
+}
+
+.title{
+  font-size: 22px;
+  margin: 0;
+}
+
+.invoice-section-header {
+  font-size: 14px;
+  margin-top: 22px;
+  margin-bottom: 14px;
+}
+
+.invoice-section-header span:first-child {
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.right-align{
+  text-align: right;
+}
+
+.money-amount {
+  font-size: 14px;
+  font-weight: 500;
+  color: #E28413;
+}
+
+.money-amount-big {
+  font-size: 17px;
+  font-weight: 500;
+  color: #E28413;
+}
+
+.money-subtitle{
+  font-size: 12px;
+  color: #028090;
+}
+
+.progress{
+  background-color: #d4d7dc;
+  margin-bottom: 0;
+}
+
+.dropdown{
+  text-align:right;
+}
+
+.dropdown-selection{
+  font-size: 1.2rem;;
+}
+
+.bank-account-list-container{
+    height: 100%;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.bank-account-container{
+  padding: 8px 0;
+  border-bottom: 1px solid #eceef1;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(236, 238, 241);
+}
+
+.bank-account-table{
+  width: 100%;
+}
+
+.profit-loss-amount{
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.profit-loss-subtitle{
+  color: #8d9096;
+  font-size: 12px;
+}
+
+.profit-loss-review{
+  font-weight: 600;
+    font-size: 12px;
+    outline: 1px solid transparent;
+    color: #0077c5;
+}
+
+.graph-container {
+  margin-top: 15px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.login h2 {
+  text-align: center;
+}
+
+.button {
+  padding: 10px;
+  width: 150px;
+
+}
+
+.username, .password {
+  padding: 20px;
+  text-align: center;
+}

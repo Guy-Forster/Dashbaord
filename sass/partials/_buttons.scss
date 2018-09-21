@@ -1,0 +1,39 @@
+.btn {
+  border:none;
+  font-weight: $paragraph;
+  font-size: 10pt;
+  box-shadow: none;
+  padding:4px 8px;
+  
+  &.success {
+    color:#fff;
+    background: $success;
+    &:hover {
+      background: lighten($success, 5%);
+    }
+    &:active {
+       background: darken($success, 10%);
+    }
+  }
+  &.danger {
+    color:#fff;
+    background: $danger;
+    &:hover {
+      background: lighten($danger, 5%);
+    }
+    &:active {
+       background: darken($danger, 10%);
+    }
+  }
+  &.default {
+    color:#fff;
+    background: $default;
+    &:hover {
+      background: darken($default, 5%);
+    }
+    &:active {
+       background: darken($default, 25%);
+    }
+  }
+}
+
